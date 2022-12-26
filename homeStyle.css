@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Trispace:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.homepage {
+  background-image: url("./home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr {
+  width: 600px;
+  height: 1px;
+  margin-top: 73.5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  position: absolute;
+  left: 120px;
+  z-index: 1;
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 0px;
+  right: 0px;
+  top: 25px;
+  padding-left: 110px;
+  padding-right: 110px;
+  backdrop-filter: blur(1.5rem);
+}
+
+.destination {
+  margin-left: 50px;
+}
+
+.crew {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.numbers {
+  font-weight: bold;
+  color: grey;
+}
+
+.hoveranime {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hoveranime:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -40px;
+  left: 0;
+  background-color: #b6b8b9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoveranime:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h2 {
+  font-family: "Trispace", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-family: "Trispace", sans-serif;
+  color: white;
+  font-size: 120px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Trispace", sans-serif;
+  color: white;
+  line-height: 35px;
+}
+
+.info {
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+  font-family: "Space Grotesk", sans-serif;
+  position: absolute;
+  left: 1000px;
+  top: 350px;
+}
+
+.explore {
+  position: absolute;
+  top: 108px;
+  left: 63px;
+  font-size: 31px;
+  color: black;
+}

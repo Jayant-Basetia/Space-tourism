@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Trispace:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.crewpage {
+  background-image: url("./crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr {
+  width: 600px;
+  height: 1px;
+  margin-top: 73.5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  position: absolute;
+  left: 120px;
+  z-index: 1;
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 0px;
+  right: 0px;
+  top: 25px;
+  padding-left: 110px;
+  padding-right: 110px;
+  backdrop-filter: blur(1.5rem);
+}
+
+.destination {
+  margin-left: 50px;
+}
+
+.crew {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.numbers {
+  font-weight: bold;
+}
+
+.hoveranime {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hoveranime:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -40px;
+  left: 0;
+  background-color: #b6b8b9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoveranime:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.desHeading {
+  color: white;
+  width: 550px;
+  font-size: 30px;
+  font-family: "Trispace", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 150px;
+}
+
+.deepHeading {
+  margin-bottom: 10px;
+  font-family: "Trispace", sans-serif;
+  color: lightslategray;
+}
+
+span {
+  color: grey;
+}
+
+.onCrew {
+  font-size: 55px;
+  margin-bottom: 40px;
+  font-family: "Trispace", sans-serif;
+  color: white;
+}
+
+.paraInfo {
+  font-size: 20px;
+  color: lightslategray;
+  line-height: 35px;
+}
+
+.des4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.des4btn {
+  position: absolute;
+  top: 620px;
+  left: 2px;
+}
+
+.btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: grey;
+  cursor: pointer;
+  border: none;
+  margin-right: 15px;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.btn:focus {
+  background-color: white;
+}
+
+.col1 {
+  position: absolute;
+  left: 226px;
+  top: 230px;
+  height: 690px;
+}
+
+.crew1 {
+  position: absolute;
+  top: 220px;
+  left: 860px;
+}
+
+.crew2 {
+  position: absolute;
+  top: 280px;
+  left: 860px;
+}
+
+.crew3 {
+  position: absolute;
+  top: 275px;
+  left: 860px;
+}
+
+.crew4 {
+  position: absolute;
+  top: 318px;
+  left: 860px;
+}

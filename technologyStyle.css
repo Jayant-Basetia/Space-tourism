@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Trispace:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.technologypage {
+  background-image: url("./technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr {
+  width: 600px;
+  height: 1px;
+  margin-top: 73.5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  position: absolute;
+  left: 120px;
+  z-index: 1;
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 0px;
+  right: 0px;
+  top: 25px;
+  padding-left: 110px;
+  padding-right: 110px;
+  backdrop-filter: blur(1.5rem);
+}
+
+.destination {
+  margin-left: 50px;
+}
+
+.crew {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.numbers {
+  font-weight: bold;
+}
+
+.hoveranime {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hoveranime:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -40px;
+  left: 0;
+  background-color: #b6b8b9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoveranime:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+span {
+  color: grey;
+}
+
+.mainCol {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+}
+
+.col1 {
+  position: absolute;
+  top: 200px;
+  left: 225px;
+}
+
+.desHeading {
+  color: white;
+  font-size: 30px;
+  font-family: "Trispace", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 120px;
+}
+
+.vehicle {
+  position: absolute;
+  top: 270px;
+  left: 850px;
+}
+
+.terminology {
+  color: lightslategray;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: "Trispace", sans-serif;
+}
+
+.type {
+  color: white;
+  font-size: 50px;
+  font-family: "Trispace", sans-serif;
+  margin-bottom: 30px;
+}
+
+.paraInfo {
+  color: lightslategray;
+  font-size: 15px;
+  font-family: "Trispace", sans-serif;
+  line-height: 30px;
+}
+
+.des4btn {
+  position: absolute;
+  top: 370px;
+  left: 130px;
+}
+
+.btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  font-family: "Space Grotesk", sans-serif;
+  margin-bottom: 20px;
+  background: none;
+  color: white;
+  font-size: 20px;
+  border-color: lightslategray;
+}

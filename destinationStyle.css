@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Trispace:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.destinationpage {
+  background-image: url("./destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+hr {
+  width: 600px;
+  height: 1px;
+  margin-top: 73.5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  position: absolute;
+  left: 120px;
+  z-index: 1;
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 0px;
+  right: 0px;
+  top: 25px;
+  padding-left: 110px;
+  padding-right: 110px;
+  backdrop-filter: blur(1.5rem);
+}
+
+.destination {
+  margin-left: 50px;
+}
+
+.crew {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.numbers {
+  font-weight: bold;
+}
+
+.hoveranime {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hoveranime:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -40px;
+  left: 0;
+  background-color: #b6b8b9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoveranime:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.mainCol {
+  display: flex;
+  flex-direction: row;
+}
+
+.des4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.deepInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.planet {
+  position: absolute;
+  left: 80px;
+  top: 270px;
+}
+
+.desHeading {
+  position: absolute;
+  left: 80px;
+  top: 186px;
+  color: white;
+  width: 550px;
+  font-size: 30px;
+  font-family: "Trispace", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+span {
+  color: grey;
+}
+
+.des4btn {
+  position: absolute;
+  left: 780px;
+  top: 270px;
+}
+
+.plink {
+  margin-right: 40px;
+}
+
+.plink {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.plink:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -10px;
+  left: 0;
+  background-color: #b6b8b9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.plink:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.desinfo {
+  position: absolute;
+  left: 770px;
+  top: 330px;
+}
+
+.onDes {
+  font-size: 150px;
+  font-family: "Trispace", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.paraInfo {
+  color: lightslategray;
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.downHr {
+  width: 600px;
+  height: 1px;
+  margin-top: 73.5px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  position: absolute;
+  left: 0px;
+  bottom: -20px;
+  z-index: 1;
+  width: 539.763px;
+}
+
+.deepInfo {
+  position: absolute;
+  top: 390px;
+}
+
+.deepHeading {
+  color: lightslategray;
+  font-size: 15px;
+}
+
+.deepPara {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+
+.deepEdit {
+  margin-right: 80px;
+}
